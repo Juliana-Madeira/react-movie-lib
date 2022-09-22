@@ -1,0 +1,44 @@
+.title {
+    /* color: #fff; */
+    color: #f7d354;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1em 0 0 0; 
+}
+
+.movie_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home_button {
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+    color: #f7d354;
+    border: 2px solid #121212;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 0 1em;
+}
+
+.home_button:hover {
+    background-color: transparent;
+    border: 2px solid #f7d354;
+    transition: .5s;
+    color: #f7d354;
+}
+
+.buttons_group{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}

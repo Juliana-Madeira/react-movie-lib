@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import {FaStar} from 'react-icons/fa';
 
-const MovieCard = () => {
+import '../MovieCard/MovieCard.css'; 
+
+const image = process.env.REACT_APP_WEATHER_IMG;
+
+const MovieCard = ({movie}) => {
   return (
-    <div>MovieCard</div>
+    <div className='movie_card'>
+        <img src={image + movie.poster_path} alt={movie.original_title} />
+        <h2>{movie.original_title}</h2>
+        <p><FaStar/>{movie.vote_average}</p>
+    </div>
   )
 }
 
