@@ -1,9 +1,8 @@
 .title {
-    /* color: #fff; */
     color: #f7d354;
     font-size: 1.2rem;
     text-align: center;
-    margin: 1em 0 0 0; 
+    margin: 1em 0 -1em 0; 
 }
 
 .movie_container{
@@ -13,6 +12,19 @@
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    margin: -1.5em 0 0 0; 
+}
+
+.title_categories {
+    color: #f7d354;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .home_button {
@@ -25,7 +37,7 @@
     padding: 1rem;
     font-size: 1.2rem;
     cursor: pointer;
-    margin: 0 1em;
+    margin: 1em;
 }
 
 .home_button:hover {
@@ -38,7 +50,13 @@
 .buttons_group{
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    text-align: center;
     justify-content: center;
+    margin-top: 1em;
 }
+
+.faAngleDown_button {
+    background-color: transparent;
+    color: #f7d354;
+    cursor: pointer;
+    border: none;
+  }

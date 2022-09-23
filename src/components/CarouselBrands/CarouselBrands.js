@@ -37,7 +37,7 @@ const CarouselBrands = () => {
            data={data}
            time={3000}
            width="1600px"
-           height="430px"
+           height="300px"
            radius="5px"
            slideNumber={false}
            captionPosition="bottom"
@@ -52,9 +52,8 @@ const CarouselBrands = () => {
            style={{
              textAlign: "contain",
              maxWidth: "1600px",
-             maxHeight: "430px",
-             margin: "40px auto",
-             
+             maxHeight: "300px",
+             margin: "40px auto"
            }}
          />
        {/* </div> */}
