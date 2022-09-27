@@ -21,7 +21,7 @@ const ButtonsGroup = () => {
       <Link to='/about-movie-lib'>
         <button className="home_button">About MovieLib</button>
       </Link>
-      <Link to='about-developer'>
+      <Link to='/about-developer'>
         <button className="home_button">About Developer</button>
       </Link>
     </div>

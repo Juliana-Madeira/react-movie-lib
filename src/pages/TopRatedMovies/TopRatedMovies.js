@@ -14,7 +14,6 @@ const TopRatedMovies = () => {
         try {
             const { data } = await axios.get(`https://api.themoviedb.org/3/movie/top_rated?api_key=${api_key}`)
             setMovies(data.results)
-            console.log(data.results)
         } catch (error) {
             console.log('erro', error)
         }

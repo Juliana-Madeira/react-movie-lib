@@ -15,7 +15,7 @@ const CarouselMovies = () => {
         <Carousel 
             autoPlay={true} 
             infiniteLoop={true} 
-            interval={6000} 
+            interval={4000} 
             stopOnHover={true} 
             transitionTime={2000}
             showStatus={false}
