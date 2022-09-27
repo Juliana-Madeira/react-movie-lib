@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+#About this project
+
+The MovieLib app was all created in React.js, styled with CSS3.
+Requests were made to the TMDB API, an API with information about movies, people and much more. For these requests, the axios library was used.
+Discover the API used here https://developers.themoviedb.org/3/getting-started/introduction
+This project was made by web developer Juliana Madeira
+
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
