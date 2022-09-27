@@ -7,6 +7,7 @@ import SearchResults from './pages/SearchResults/SearchResults';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import PopularMovies from './pages/PopularMovies/PopularMovies';
+import TopRatedMovies from './pages/TopRatedMovies/TopRatedMovies';
 
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/top-rated-movies' element={<TopRatedMovies />} />
         <Route path='/popular-movies' element={<PopularMovies />} />
         <Route path='/movie/:id' element={<MovieDetails/>}/>
         <Route path='/search' element={<SearchResults/>}/>

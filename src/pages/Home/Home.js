@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaAngleDown } from "react-icons/fa";
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 import CarouselMovies from '../../components/CarouselMovies/CarouselMovies';
@@ -15,9 +15,11 @@ const Home = () => {
     navigate('/popular-movies')
   }
 
-  const handleToButtonsHome = () => {
-    navigate('#btn')
+  const handleToTopRatedMovies = () => {
+    navigate('/top-rated-movies')
   }
+
+  
 
   return (
     <div className='home_container' >
@@ -37,8 +39,8 @@ const Home = () => {
             Home
           </button>
         </HashLink>
+        <button className='home_button' onClick={handleToTopRatedMovies}>Top Rated Movies</button>
         <button className='home_button' onClick={handleToPopularMovies}>Popular Movies</button>
-        <button className='home_button'>Top Rated Movies</button>
         <button className='home_button'>People</button>
         <button className='home_button'>About MovieLib</button>
         <button className='home_button'>About Developer</button>

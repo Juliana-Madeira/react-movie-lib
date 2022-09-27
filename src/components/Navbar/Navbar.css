@@ -42,3 +42,22 @@
     color: #f7d354;
 }
 
+@media (min-width: 320px) and (max-width: 768px){
+    .navbar{
+        background-color: #121212;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+    }
+    .navbar a h2{
+        display: flex;
+        gap: 0.5rem;
+        font-size: 1em;
+    }
+    .navbar input {
+        border-radius: 4px;
+        border: none;
+        width: 10rem;
+    }
+}
