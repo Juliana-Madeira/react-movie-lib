@@ -1,10 +1,11 @@
 .movie_card {
-    width: 50%;
+    width: 22em;
     color: #fff;
-    margin-bottom: 3rem;
+    margin: 0 0.8rem 3rem 0.8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     background-color: #111;
     padding: 1rem;
 }
@@ -19,11 +20,15 @@
     margin-bottom: 1rem;
 }
 
+.movie_card h2{
+    font-size: 1.3em
+}
+
 .movie_card p{
     display: flex;
     justify-content: center;
     gap: 0.5em;
-}
+} 
 
 .movie_card svg{
     color: #f7d354;

@@ -25,8 +25,8 @@ const PopularMovies = () => {
   return (
     <div>
       <ButtonsGroup/>
-      <h2 className='title'>Popular Movies</h2>
-      <div className='movie_container'>
+      <p className='title'>Popular Movies</p>
+      <div className='movies_container'>
         {movies.length === 0 && <p>Loading...</p>}
         {movies.map((movie) => {
           return (

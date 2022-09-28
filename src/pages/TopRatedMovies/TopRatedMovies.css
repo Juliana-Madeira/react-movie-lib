@@ -1,0 +1,15 @@
+.title {
+    color: #f7d354;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1.5em 0; 
+}
+
+.movies_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
