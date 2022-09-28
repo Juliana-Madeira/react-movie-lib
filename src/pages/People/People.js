@@ -25,7 +25,7 @@ const People = () => {
 
     useEffect(() => {
         getAllPopularPeople()
-    }, [])
+    })
 
   return (
     <div>

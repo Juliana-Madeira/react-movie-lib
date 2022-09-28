@@ -20,7 +20,7 @@ const PopularMovies = () => {
 
   useEffect(() => {
     getAllPopularMovies();
-  }, []) 
+  }) 
 
   return (
     <div>
