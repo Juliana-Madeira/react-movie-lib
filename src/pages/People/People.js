@@ -37,9 +37,9 @@ const People = () => {
                         <div>{onePeople.popularity}</div>
                         <div>{onePeople.known_for_department}</div>
                         <div>
-                            <img src={image +onePeople.known_for[0].poster_path} alt="" />
-                            <img src={image +onePeople.known_for[1].poster_path} alt="" />
-                            <img src={image +onePeople.known_for[2].poster_path} alt="" />
+                            <img src={image +onePeople.known_for[0].poster_path} alt="" height='300px'/>
+                            <img src={image +onePeople.known_for[1].poster_path} alt="" height='300px' />
+                            <img src={image +onePeople.known_for[2].poster_path} alt="" height='300px'/>
                         </div>
                     </div>
                 )
