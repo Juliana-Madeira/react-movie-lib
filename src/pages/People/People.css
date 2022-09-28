@@ -1,0 +1,54 @@
+.people-card{
+    width: 40em;
+    color: #fff;
+    margin: 2.5rem 0.8rem 3rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    padding: 1rem;
+}
+
+.people-card-photo{
+    height: 19em;
+    margin-top: 1em;
+}
+
+.people_card img,
+.people_card h2,
+.people_card p {
+    margin-bottom: 1em;
+    line-height: 1em;
+}
+
+
+.people-card h2{
+    font-size: 1.3em;
+    margin-top: 1em
+}
+
+.people_card p{
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+} 
+
+.people-movies img{
+    height: 250px;
+    margin: 1em;
+}
+
+.title {
+    color: #f7d354;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1.5em 0; 
+}
+
+.people-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

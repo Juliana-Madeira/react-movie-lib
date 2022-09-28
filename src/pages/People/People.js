@@ -1,6 +1,9 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
+
 import ButtonsGroup from '../../components/ButtonsGroup/ButtonsGroup';
+
+import '../People/People.css';
 
 
 const People = () => {
@@ -27,19 +30,19 @@ const People = () => {
   return (
     <div>
         <ButtonsGroup/>
-        <h2 className='title'>People</h2>
-        <div>
+        <p className='title'>People</p>
+        <div className='people-page'>
             {people.map((onePeople) => {
                 return(
-                    <div>
-                        <img src={image + onePeople.profile_path} alt={onePeople.name} height='300px' />
-                        <div>{onePeople.name}</div>
-                        <div>{onePeople.popularity}</div>
-                        <div>{onePeople.known_for_department}</div>
-                        <div>
-                            <img src={image +onePeople.known_for[0].poster_path} alt="" height='300px'/>
-                            <img src={image +onePeople.known_for[1].poster_path} alt="" height='300px' />
-                            <img src={image +onePeople.known_for[2].poster_path} alt="" height='300px'/>
+                    <div className='people-card'>
+                        <img src={image + onePeople.profile_path} alt={onePeople.name} className='people-card-photo' />
+                        <h2>{onePeople.name}</h2>
+                        <p>Popularity: {onePeople.popularity}</p>
+                        <p>Job: {onePeople.known_for_department}</p>
+                        <div className='people-movies'>
+                            <img src={image +onePeople.known_for[0].poster_path} alt="" />
+                            <img src={image +onePeople.known_for[1].poster_path} alt="" />
+                            <img src={image +onePeople.known_for[2].poster_path} alt="" />
                         </div>
                     </div>
                 )
