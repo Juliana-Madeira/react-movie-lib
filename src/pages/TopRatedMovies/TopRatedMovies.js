@@ -25,7 +25,6 @@ const TopRatedMovies = () => {
         getAllTopRatedMovies()
     })
 
-  
 
   return (
     <div>
