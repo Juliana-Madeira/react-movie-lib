@@ -2,7 +2,9 @@ import React from 'react'
 
 const MovieDetails = () => {
   return (
-    <div>MovieDetails</div>
+    <div>
+      <h1>MovieDetails em construção</h1>
+    </div>
   )
 }
 
