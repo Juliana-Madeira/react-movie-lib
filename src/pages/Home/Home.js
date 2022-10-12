@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaAngleDown } from "react-icons/fa";
-import { HashLink } from "react-router-hash-link";
+// import { FaAngleDown } from "react-icons/fa";
 import ButtonsGroup from '../../components/ButtonsGroup/ButtonsGroup';
 
 
