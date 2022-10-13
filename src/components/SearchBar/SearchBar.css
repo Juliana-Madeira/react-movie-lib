@@ -1,0 +1,8 @@
+@media (max-width: 426px){
+    .form-mobile input{
+        display: none;
+    }
+    .button-search{
+        display: none;
+    }
+}

@@ -1,8 +1,8 @@
-.title {
-    color: #f7d354;
-    font-size: 1.2rem;
-    text-align: center;
-    margin: 1.5em 0; 
+/* .title {
+  color: #f7d354;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1.5em 0;
 }
 
 .categories{
@@ -16,9 +16,44 @@
     color: #f7d354;
     font-size: 1.2rem;
     text-align: center;
-}
+} 
 
 .home_button {
+  display: flex;
+  align-items: center;
+  background-color: #121212;
+  color: #f7d354;
+  border: 2px solid #121212;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 1em;
+}
+
+.home_button:hover {
+  background-color: transparent;
+  border: 2px solid #f7d354;
+  transition: 0.5s;
+  color: #f7d354;
+}
+
+.buttons_group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.faAngleDown_button {
+  background-color: transparent;
+  color: #f7d354;
+  cursor: pointer;
+  border: none;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .home_button {
     display: flex;
     align-items: center;
     background-color: #121212;
@@ -29,94 +64,71 @@
     font-size: 1.2rem;
     cursor: pointer;
     margin: 1em;
-}
+  }
 
-.home_button:hover {
+  .home_button:hover {
     background-color: transparent;
     border: 2px solid #f7d354;
-    transition: .5s;
+    transition: 0.5s;
     color: #f7d354;
+  }
+  .mobile_text {
+    display: none;
+  }
 }
 
-.buttons_group{
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home_button {
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+    color: #f7d354;
+    border: 2px solid #121212;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+    margin: 1em;
+  }
+
+  .buttons_group {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1em;
-}
-
-.faAngleDown_button {
-    background-color: transparent;
-    color: #f7d354;
-    cursor: pointer;
-    border: none;
+    margin-top: 3em;
   }
 
-@media (min-width: 1025px) and (max-width: 1440px){   
-    .home_button {
-        display: flex;
-        align-items: center;
-        background-color: #121212;
-        color: #f7d354;
-        border: 2px solid #121212;
-        border-radius: 8px;
-        padding: 1rem;
-        font-size: 1.2rem;
-        cursor: pointer;
-        margin: 1em;
-    }
-    
-    .home_button:hover {
-        background-color: transparent;
-        border: 2px solid #f7d354;
-        transition: .5s;
-        color: #f7d354;
-    }
-}
+  .mobile_text {
+    display: none;
+  }
+}*/
 
-@media (min-width: 768px) and (max-width: 1024px){
-    .home_button {
-        display: flex;
-        align-items: center;
-        background-color: #121212;
-        color: #f7d354;
-        border: 2px solid #121212;
-        border-radius: 8px;
-        padding: 1rem;
-        font-size: 0.7rem;
-        cursor: pointer;
-        margin: 1em;
-    }
-    
-    .buttons_group{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 3em;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 768px){
-    .buttons_group{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 3em;
-    }
-
-    .home_button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #121212;
-        color: #f7d354;
-        border: 2px solid #121212;
-        border-radius: 8px;
-        width: 200px;
-        text-align: center;
-        font-size: 1rem;
-        cursor: pointer;
-        margin: 1em;
-    }
+@media (max-width: 426px) {
+  .buttons_group {
+    display: none;
+  }
+  .mobile_text {
+    color: #f7d354;
+    font-style: italic;
+    font-size: 0.9em;
+    margin: 2em 0 1em 0.5em;
+    width: 20em;
+  }
+  .mobile_content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 1em 0 1em;
+  }
+  .btn_hamburger_menu {
+    background: transparent;
+    color: #f7d354;
+    border: none;
+  }
+  .title {
+    color: #f7d354;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0.9em 0;
+  }
 }

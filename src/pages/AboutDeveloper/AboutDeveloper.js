@@ -13,6 +13,8 @@ const AboutDeveloper = () => {
           <p>Outstanding in solving problems using good practices and a lot of creativity in design and development.</p>
           <p>Used to working in a team, always using the agile Kanban methodology.</p>
           <p>Javascript, HTML5, CSS3, React.js, Styled-Components, Axios, Node.js, MongoDB, Express, Firebase, Restfull API, are some skills in the web knowledge repertoire.</p>
+          <p>Contact me :)</p>
+          
         </div>
     </div>
   )

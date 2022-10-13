@@ -1,24 +1,26 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { BiCameraMovie, BiSearchAlt2} from 'react-icons/bi';
 
-import { BiCameraMovie, BiSearchAlt2 } from 'react-icons/bi';
+// import SearchBar from '../SearchBar/SearchBar';
 
 import '../Navbar/Navbar.css';
 
 const Navbar = () => {
-    const [search, setSearch] = useState('')
+  const [search, setSearch] = useState('')
 
   return (
     <nav className='navbar'>
         <Link to='/'><h2><BiCameraMovie/>MovieLib</h2></Link>
-        <form >
-            <input 
-                type="text" 
-                placeholder='Search'
-                value={search}
-                onChange={(e) => setSearch(e.target.value)} />
-            <button type='submit'><BiSearchAlt2/></button>
-        </form>
+        <form className='form'>
+        <input 
+            type="text" 
+            placeholder='Search'
+            value={search}
+            onChange={(e) => setSearch(e.target.value)} />
+        <button type='submit' className='button-search'><BiSearchAlt2/></button>
+    </form>
+        {/* <SearchBar/> */}
     </nav>
   )
 }
